@@ -1,0 +1,15 @@
+pi = "3.14159"
+diameter = "3"
+
+# Convert pi and diameter to float
+pi = float(pi)
+diameter = float(diameter)
+
+# Calculate the radius
+radius = diameter / 2
+
+# Calculate the area
+area = pi * radius**2
+
+# Print the result
+print("Area:", area)
